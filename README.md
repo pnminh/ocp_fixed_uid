@@ -1,6 +1,6 @@
 # Run pod as specific user
 In this example, the user `default` with uid=1001 is used
-1. Create `Dockerfile` that add user `1001`
+1. Create `Dockerfile` that adds user `1001`
     ```Dockerfile
     ...
     RUN useradd -u 1001 -r -g 0 -d ${HOME} -s /sbin/nologin \
